@@ -10,7 +10,7 @@ The JVM interprets byte code (Java command).
 
 Byte code binaries end in `class`.
 
-![Java compilation processes](./Java-interpreter.png)
+![Java compilation processes](./java-interpreter.png)
 
 Compiled languages are **MORE** efficient than interpreted ones.
 
