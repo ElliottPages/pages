@@ -135,7 +135,7 @@ Java doesn't support multiple inheritance.
 - Abstract class:
  - can be a type
  - can have multiple subclasses
- - can have more than one super classes
+ - **can't** have more than one super classes
  - abstract classes can be extended by other abstract classes meaning not all methods have to be concrete in a subclass of an abstract class
  - main uses you need to know: `prevents the class from being instantiated directly` and `ensures that some of the methods are overrode by subclasses`.
 - Interface:
