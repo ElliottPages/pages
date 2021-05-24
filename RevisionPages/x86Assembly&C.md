@@ -13,7 +13,7 @@ Need to know:
 
 Descriptions in brackets are not set in stone, just general use cases. Below is the make up of how many bits are allocated to each style of label ranging from 0 being bit 1 to 63 being the 64<sup>th</sup> bit.
 
-![Accumulator](./x86Accumulator.png)
+![Accumulator](./x86Accumulator.PNG)
 
 When you want to move data into a register, you use `mov [register] [operand]`. E.g. `mov eax, 12`.
 
