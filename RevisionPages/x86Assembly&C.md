@@ -234,4 +234,4 @@ _asm {
 
 Here are all the formatters:
 
-![formatters](./PrintingC.png)
+![formatters](./PrintingC.PNG)
