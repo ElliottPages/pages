@@ -171,7 +171,7 @@ This means to clear out stack, we can effective just add to the stack pointer in
 
 ---
 ## IO in x86
---
+---
 
 We can use c libraries for this.
 
