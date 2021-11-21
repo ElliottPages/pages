@@ -247,7 +247,7 @@ Random is better as a frame can have entire bandwidth if it is the only one tran
 
 ## Forwarding Tables
 
-![](./subnet.png)
+![](./Subnet.png)
 
 Router:
 
