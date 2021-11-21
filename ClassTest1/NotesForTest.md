@@ -93,9 +93,11 @@ In form a.b.c.d/x where x is how many bits are 1 in the subnet. This shows alloc
 ### *Example of question workings*
 
 ```
-Given address space 223.200.0.0/20. We know IPv4 is 32 bits so we can use the last 12 bits which gives us 12^2 = 4096.
+Given address space 223.200.0.0/20. We know IPv4 is 32 bits so we can use the last 12 
+bits which gives us 12^2 = 4096.
 
-Subnet A wants 2000 ips, subnets B and C want 100 each. Can do this by halving and allocating.
+Subnet A wants 2000 ips, subnets B and C want 100 each. Can do this by halving and 
+allocating.
 
 This is such:
 
@@ -103,7 +105,8 @@ for subnet A we look at the bits
 
 we dont touch 223 or 200 but the 0, we can use half of that byte
 
-so we can say 0000|1000 is a space of a 21 subnet saying that A has 223.200.0.0/21 to 223.200.8.0/21 subnet.
+so we can say 0000|1000 is a space of a 21 subnet saying that A has 223.200.0.0/21 
+to 223.200.8.0/21 subnet.
 
 Then apply this recursively
 
@@ -154,7 +157,8 @@ We cab see the that in the middle where we specify
   |||||
   01234
 
-To get interface 5 then would be 11010000 but we dont have that 1 in the middle so goes to 4 as thats most specific.
+To get interface 5 then would be 11010000 but we dont have that 1 in the middle so 
+goes to 4 as thats most specific.
 
  ```
 ## Intra-AS protocol
