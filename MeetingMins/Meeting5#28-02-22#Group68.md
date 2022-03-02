@@ -97,4 +97,6 @@ Move to adjacency matrix, assign in week 2
 	- visualisation, menu UI, UI/UX
 
 
-Look into contacting Darran on friday
+Look into contacting Darran on friday.
+
+
