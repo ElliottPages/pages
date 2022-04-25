@@ -85,6 +85,3 @@ Single click on a node to highlight it on table. CURRENT BUG: if you double clic
 
 
 ### Merge dev-classroom-input
-
-
-
